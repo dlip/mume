@@ -2066,9 +2066,9 @@ sidebarTOCBtn.addEventListener('click', function(event) {
           ),
           { encoding: "utf-8" },
         ),
-        // twemoji css style
+        // emoji css style
         utility.readFile(
-          path.resolve(extensionDirectoryPath, "./styles/twemoji.css"),
+          path.resolve(extensionDirectoryPath, "./styles/emoji.css"),
           { encoding: "utf-8" },
         ),
         // preview theme
